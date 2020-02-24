@@ -1,24 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 2px;
-
+/*Header*/
+.header {
   position: fixed;
   top: 0;
   right: 0;
@@ -26,36 +7,75 @@
   z-index: 1030;
 
   background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
   padding: 25px 0;
+
+  font-family: 'Montserrat', sans-serif;
 }
 
-.info {
-  padding-top: 100px;
-}
-
-.App-link {
-  color: #61dafb;
+.navWrap {
+  height: 95px;
 }
 
 .nameAuthor {
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+  letter-spacing: 2px;
+  color: white;
+  padding: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nameAuthor:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.menuItem {
+  padding: 15px 20px;
+
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .carouselContainer {
   
+}
+
+/*About me*/
+.aboutMe {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+.centered {
+  text-align: center;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.avatar {
+  border-radius: 150px;
+  width: 200px;
+  height: 200px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }

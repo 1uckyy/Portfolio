@@ -8,22 +8,47 @@ import planner1 from './images/aprtm_plnr1.jpg';
 import planner2 from './images/aprtm_plnr2.jpg';
 import planner3 from './images/aprtm_plnr3.jpg';
 import planner4 from './images/aprtm_plnr4.jpg';
+import im from './images/im.jpg';
 
 function App() {
   return (
     <div>
-      <div className="App-header">
-        <a className="nameAuthor" href="#top-navnar">vladislav novak</a>        
+      <div className="navWrap">
+        <header className="header">
+          <div className="container">
+            <a className="nameAuthor" href="#top-navnar">vladislav novak</a>
+            <div className="menu">
+            <a className="menuItem">about me</a>
+            <a className="menuItem">projects</a>
+            <a className="menuItem">links</a>
+            <a className="menuItem">contacts</a>
+            </div>
+          </div>
+        </header>
       </div>
-      <div></div>
-      <div className="info" id="top-navnar">
+      <div className="aboutMe">
+        <div className="container centered">
+          <div className="row">
+            <div className="col-lg-7 mt">
+              <img className="avatar" src={im} alt="Vladislav Novak"></img>
+              <hr/>
+              <div>YarGU</div>
+              <hr/>
+            </div>
+            <div className="col-lg-5">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="contacts" id="top-navnar">
         <div className="contacts">Contacts</div>
         <div>Email:</div><a href="mailto:novak.vlad97@mail.ru">novak.vlad97@mail.ru</a>
         <div>Phone number:</div><a href="tel:89806550836">89806550836</a>
         <div>VK:</div><a href="https://vk.com/1uckyy">@1uckyy</a>
-        <div>Links</div>
-        <div>Github:</div><a href="https://github.com/1uckyy">@1uckyy</a>
       </div>
+      <div>Links</div>
+      <div>Github:</div><a href="https://github.com/1uckyy">@1uckyy</a>
       <div>Projects</div>
       <div className="carouselContainer">
         <Carousel>
