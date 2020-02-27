@@ -6,7 +6,7 @@ class Header extends Component {
             <div className="navWrap" id="aboutme">
                 <header className="header">
                 <div className="container">
-                    <a className="nameAuthor" href="#top-navnar">vladislav novak</a>
+                    <a className="nameAuthor" href="#aboutme">vladislav novak</a>
                     <div className="menu">
                         <a className="menuItem" href="#aboutme">about me</a>
                         <a className="menuItem" href="#projects">projects</a>

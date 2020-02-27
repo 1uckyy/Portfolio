@@ -17,7 +17,7 @@ class AboutMe extends Component {
                     <div className="col-lg-7 mt">
                     <img className="avatar" src={im} alt="Vladislav Novak"></img>
                     <hr className="hr"/>
-                    <div>Vestibulum aliquam metus in eleifend elementum.</div>
+                    <div>4th year student of Yaroslavl State University named after P. G. Demidov.</div>
                     <hr className="hr"/>
                     <div>
                         <LinkItem href="https://vk.com/1uckyy" icon={vk} wnd="_blank" alt="vk"/>
