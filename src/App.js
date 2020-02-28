@@ -40,7 +40,7 @@ function App() {
       <AboutMe/>
       <div className="projectsContainer" id="projects">
         <div className="col-lg-6 centered">
-            <h3 className="projectsTitle">Projects</h3>
+            <h3 className="projectsTitle prj">Projects</h3>
             <hr className="hr"/>
         </div>
         <div className="carouselContainer">
@@ -221,5 +221,5 @@ function App() {
     </div>
   );
 }
-//https://drive.google.com/open?id=1uyw0ArTA05LjTb1wkQNZeUhEFjAW5DDX
+
 export default App;

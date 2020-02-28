@@ -27,7 +27,19 @@ class AboutMe extends Component {
                     </div>
                     </div>
                     <div className="col-lg-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius purus non tellus maximus, sed ultricies felis vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut vitae odio a elit dapibus faucibus eget non nibh. Praesent iaculis auctor elit eu efficitur. Integer quis tempor nibh, sed malesuada neque. Cras dapibus, sem id tincidunt congue, eros dui suscipit dui, at maximus sem ex ac risus. Maecenas lacinia arcu sed placerat auctor. Vivamus ullamcorper lobortis turpis non placerat. Integer metus mi, semper eget consequat eu, mollis vitae elit. Nam volutpat varius libero sed tempus. Sed eget auctor diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat volutpat risus, vitae congue nisl porttitor sed. Mauris eleifend sem eu aliquet vestibulum.
+                        <p>I am a young programmer & 4 year student, and you are welcome to my web-portfolio.</p>
+                        <h3>About me:</h3>
+                        <p>Yaroslavl - Russia</p>
+                        <p>Music creator in Fl Studio, guitarist</p>
+                        <p>Basketball player, regular runner, chess player</p>
+                        <h3>Languages:</h3>
+                        <p><b>Russian</b>: native</p>
+                        <p><b>English</b>: basic knowledge</p>
+                        <h3>Dev. skills:</h3>
+                        <p><b>Git</b>: Daily use common cmds.</p>
+                        <p><b>Object-oriented programming</b>: C#, several projects.</p>
+                        <p><b>Web</b>: HTML5 / CSS3, JavaScript.</p>
+                        <p><b>Databases</b>: SQL (MySQL) / NoSQL (MongoDB).</p>
                     </div>
                 </div>
                 </div>
