@@ -19,7 +19,7 @@ class AboutMe extends Component {
                     <hr className="hr"/>
                     <div>4th year student of Yaroslavl State University named after P. G. Demidov.</div>
                     <hr className="hr"/>
-                    <div>
+                    <div className="links">
                         <LinkItem href="https://vk.com/1uckyy" icon={vk} wnd="_blank" alt="vk"/>
                         <LinkItem href="https://github.com/1uckyy" icon={github} wnd="_blank" alt="github"/>
                         <LinkItem href="mailto:novak.vlad97@mail.ru" icon={mail} alt="mail"/>
@@ -39,7 +39,7 @@ class AboutMe extends Component {
                         <p><b>Git</b>: Daily use common cmds.</p>
                         <p><b>Object-oriented programming</b>: C#, several projects.</p>
                         <p><b>Web</b>: HTML5 / CSS3, JavaScript.</p>
-                        <p><b>Databases</b>: SQL (MySQL) / NoSQL (MongoDB).</p>
+                        <p id="projects"><b>Databases</b>: SQL (MySQL) / NoSQL (MongoDB).</p>
                     </div>
                 </div>
                 </div>

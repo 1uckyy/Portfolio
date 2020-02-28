@@ -38,7 +38,7 @@ function App() {
     <div>
       <Header/>
       <AboutMe/>
-      <div className="projectsContainer" id="projects">
+      <div className="projectsContainer">
         <div className="col-lg-6 centered">
             <h3 className="projectsTitle prj">Projects</h3>
             <hr className="hr"/>
@@ -78,8 +78,8 @@ function App() {
             <LinkItem href="https://github.com/1uckyy/ApartmentPlannerFlaskReact" icon={github} wnd="_blank" alt="github repo"/>
             <LinkItem href="https://apartment-planner.herokuapp.com/" icon={link} wnd="_blank" alt="heroku"/>
           </div>
-          <h3 className="projectsTitle prjTtl">Apartment Planner</h3>
-          <p>Etiam imperdiet urna vitae lacus interdum, vel porta tellus sollicitudin.</p>
+          <h3 className="projectsTitle prjTtl">Apartment Planner <i className="devicon-react-original colored"></i> <i class="devicon-python-plain colored"></i> <i className="devicon-mongodb-plain colored"></i></h3>
+          <p>Web application for floor planning.</p>
         </div>
         <hr className="hr" style={{maxWidth: "50%", margin: "1em auto"}}/>
         <div className="carouselContainer">
@@ -118,8 +118,8 @@ function App() {
             <LinkItem href={sys_pdf} icon={pdf} alt="pdf file"/>
             <LinkItem href="https://1uckyy.github.io/" icon={link} wnd="_blank" alt="gh-pages"/>
           </div>
-          <h3 className="projectsTitle prjTtl">Solar system</h3>
-          <p>Etiam imperdiet urna vitae lacus interdum, vel porta tellus sollicitudin.</p>
+          <h3 className="projectsTitle prjTtl">Solar system <i class="devicon-javascript-plain colored"></i></h3>
+          <p>3d model of the solar system.</p>
         </div>
         <hr className="hr" style={{maxWidth: "50%", margin: "1em auto"}}/>
         <div className="carouselContainer">
@@ -150,8 +150,8 @@ function App() {
             <LinkItem href="https://github.com/1uckyy/social-e-library-server" icon={github} wnd="_blank" alt="github repo"/>
             <LinkItem href="https://social-e-library.herokuapp.com/" icon={link} wnd="_blank" alt="gh-pages"/>
           </div>
-          <h3 className="projectsTitle prjTtl">Social e-library</h3>
-          <p>Etiam imperdiet urna vitae lacus interdum, vel porta tellus sollicitudin.</p>
+          <h3 className="projectsTitle prjTtl">Social e-library <i class="devicon-react-original colored"></i> <i class="devicon-nodejs-plain colored"></i> <i class="devicon-express-original colored"></i> <i class="devicon-mongodb-plain colored"></i></h3>
+          <p>This library is intended primarily for creative people who want to express themselves through literary works and share this with other people.</p>
         </div>
         <hr className="hr" style={{maxWidth: "50%", margin: "1em auto"}}/>
         <div className="carouselContainer">
@@ -189,8 +189,8 @@ function App() {
             <LinkItem href="https://github.com/1uckyy/Simplex-Method/tree/remembering-type-of-steps" icon={github} wnd="_blank" alt="github repo"/>
             <LinkItem href={"https://drive.google.com/open?id=1uyw0ArTA05LjTb1wkQNZeUhEFjAW5DDX"} icon={zip} wnd="_blank" alt="zip file"/>
           </div>
-          <h3 className="projectsTitle prjTtl">Simplex method</h3>
-          <p>Etiam imperdiet urna vitae lacus interdum, vel porta tellus sollicitudin.</p>
+          <h3 className="projectsTitle prjTtl">Simplex method <i class="devicon-csharp-plain colored"></i></h3>
+          <p>A program that allows solving the linear programming problem by the simplex method.</p>
         </div>
       </div>
       <footer className="footer" id="footer">
