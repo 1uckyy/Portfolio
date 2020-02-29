@@ -251,6 +251,14 @@
   }
 }
 
+@media (max-width: 580px) {
+  .row-mod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media (max-width: 400px) {
   .carouselContainer {
     width: 98%;
