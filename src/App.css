@@ -148,6 +148,38 @@
   text-align: center;
 }
 
+#graybg .carousel-indicators li {
+  background-color: gray;
+}
+
+#graybg .carousel-control-next-icon {
+  background-image: url("./images/icons/next-gray.png");
+}
+
+#graybg .carousel-control-prev-icon {
+  background-image: url("./images/icons/prev-gray.png");
+}
+
+#blackbg .carousel-indicators li {
+  background-color: black;
+}
+
+#blackbg .carousel-control-next-icon {
+  background-image: url("./images/icons/next.png");
+}
+
+#blackbg .carousel-control-prev-icon {
+  background-image: url("./images/icons/prev.png");
+}
+
+#blackarrows .carousel-control-next-icon {
+  background-image: url("./images/icons/next.png");
+}
+
+#blackarrows .carousel-control-prev-icon {
+  background-image: url("./images/icons/prev.png");
+}
+
 /*Footer*/
 .footer {
   background-color: steelblue;
@@ -187,6 +219,7 @@
 .footer-links {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /*media queries*/

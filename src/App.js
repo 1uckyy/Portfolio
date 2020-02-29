@@ -48,7 +48,7 @@ function App() {
             <hr className="hr"/>
         </div>
         <div className="carouselContainer">
-          <Carousel>
+          <Carousel id="graybg">
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -127,7 +127,7 @@ function App() {
         </div>
         <hr className="hr" style={{maxWidth: "50%", margin: "1em auto"}}/>
         <div className="carouselContainer">
-          <Carousel>
+          <Carousel id="blackarrows">
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -159,7 +159,7 @@ function App() {
         </div>
         <hr className="hr" style={{maxWidth: "50%", margin: "1em auto"}}/>
         <div className="carouselContainer">
-          <Carousel>
+          <Carousel id="blackbg">
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -198,7 +198,7 @@ function App() {
         </div>
         <hr className="hr" style={{maxWidth: "50%", margin: "1em auto"}}/>
         <div className="carouselContainer">
-          <Carousel>
+          <Carousel id="blackbg">
             <Carousel.Item>
               <img
                 className="d-block w-100"
