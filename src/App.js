@@ -5,9 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import LinkItem from './components/LinkItem';
+import Footer from './components/Footer';
 
 /*images*/
-import vk from './images/icons/vk-icon.png';
 import github from './images/icons/github-icon.png';
 import link from './images/icons/link-icon.png';
 import pdf from './images/icons/pdf-icon.png';
@@ -193,15 +193,18 @@ function App() {
           <p>A program that allows solving the linear programming problem by the simplex method.</p>
         </div>
       </div>
-      <footer className="footer" id="footer">
+      <Footer/>
+      {/* <footer className="footer" id="footer">
         <div className="container centered">
           <div className="row row-mod">
             <div className="col-lg-4 mod">
               <h4 id="h4">Contact:</h4>
-              <p>Email:
+              <p>
+                <div>Email:</div>
                 <a href="mailto:novak.vlad97@mail.ru" className="footer-link">novak.vlad97@mail.ru</a>
               </p>
-              <p>Phone:
+              <p>
+                <div>Phone:</div>
                 <a href="tel:89806550836" className="footer-link">89806550836</a>
               </p>
             </div>
@@ -217,7 +220,7 @@ function App() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }

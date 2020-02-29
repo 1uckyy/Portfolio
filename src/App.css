@@ -191,6 +191,12 @@
   }
 }
 
+@media (max-width: 991px) {
+  #h4 {
+    padding-bottom: 0px;
+  }
+}
+
 @media (max-width: 900px) {
   .dropdown {
     display: block;
