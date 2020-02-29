@@ -184,6 +184,11 @@
   color: aliceblue;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
 /*media queries*/
 @media (max-width: 1200px) {
   .carouselContainer {

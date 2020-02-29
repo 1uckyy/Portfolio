@@ -32,6 +32,10 @@ import simplex1 from './images/simplex1.jpg';
 import simplex2 from './images/simplex2.jpg';
 import simplex3 from './images/simplex3.jpg';
 import simplex4 from './images/simplex4.jpg';
+/*cashbox*/
+import cashbox1 from './images/cashbox1.jpg';
+import cashbox2 from './images/cashbox2.jpg';
+import cashbox3 from './images/cashbox3.jpg';
 
 function App() {
   return (
@@ -192,35 +196,40 @@ function App() {
           <h3 className="projectsTitle prjTtl">Simplex method <i class="devicon-csharp-plain colored"></i></h3>
           <p>A program that allows solving the linear programming problem by the simplex method.</p>
         </div>
+        <hr className="hr" style={{maxWidth: "50%", margin: "1em auto"}}/>
+        <div className="carouselContainer">
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={cashbox1}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={cashbox2}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={cashbox3}
+                alt="First slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div>
+            <LinkItem href="https://github.com/RacoonSTR/react-kassa/tree/master/client/src/components/Cashiers" icon={github} wnd="_blank" alt="github repo"/>
+            <LinkItem href="https://tensor-react-kassa.herokuapp.com/" icon={link} wnd="_blank" alt="gh-pages"/>
+          </div>
+          <h3 className="projectsTitle prjTtl">Cashbox(teamwork experience) <i class="devicon-react-original colored"></i> <i class="devicon-typescript-plain colored"></i> <i class="devicon-mongodb-plain colored"></i></h3>
+          <p>This project is a cashbox software. The project was developed by the team as part of the training course. The group was divided into programmers, testers, assembler, designers and others. I was developing component "Cashiers". This is an invaluable experience for me.</p>
+        </div>
       </div>
       <Footer/>
-      {/* <footer className="footer" id="footer">
-        <div className="container centered">
-          <div className="row row-mod">
-            <div className="col-lg-4 mod">
-              <h4 id="h4">Contact:</h4>
-              <p>
-                <div>Email:</div>
-                <a href="mailto:novak.vlad97@mail.ru" className="footer-link">novak.vlad97@mail.ru</a>
-              </p>
-              <p>
-                <div>Phone:</div>
-                <a href="tel:89806550836" className="footer-link">89806550836</a>
-              </p>
-            </div>
-            <div className="col-lg-4 mod">
-              <h4 id="h4">Meet me on:</h4>
-              <p>
-                <LinkItem href="https://vk.com/1uckyy" icon={vk} wnd="_blank" alt="vk"/>
-                <LinkItem href="https://github.com/1uckyy" icon={github} wnd="_blank" alt="github"/>
-              </p>
-            </div>
-            <div className="col-lg-4 mod">
-              <h4 id="h4">It was nice to see you :)</h4>
-            </div>
-          </div>
-        </div>
-      </footer> */}
     </div>
   );
 }
