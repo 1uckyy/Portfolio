@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import LinkItem from './LinkItem';
 
+//google analytics functions
+import { VkClick, GithubProfileClick, EmailClick, PhoneClick } from './ClickEventFunctions'
+
 /*images*/
 import im from '../images/im.jpg';
 import mail from '../images/icons/mail-icon.png';
@@ -20,10 +23,10 @@ class AboutMe extends Component {
                     <div>4th year student of Yaroslavl State University named after P. G. Demidov.</div>
                     <hr className="hr"/>
                     <div className="links">
-                        <LinkItem href="https://vk.com/1uckyy" icon={vk} wnd="_blank" alt="vk"/>
-                        <LinkItem href="https://github.com/1uckyy" icon={github} wnd="_blank" alt="github"/>
-                        <LinkItem href="mailto:novak.vlad97@mail.ru" icon={mail} alt="mail"/>
-                        <LinkItem href="tel:89806550836" icon={phone} alt="phone"/>
+                        <LinkItem onClick={VkClick} href="https://vk.com/1uckyy" icon={vk} wnd="_blank" alt="vk"/>
+                        <LinkItem onClick={GithubProfileClick} href="https://github.com/1uckyy" icon={github} wnd="_blank" alt="github"/>
+                        <LinkItem onClick={EmailClick} href="mailto:novak.vlad97@mail.ru" icon={mail} alt="mail"/>
+                        <LinkItem onClick={PhoneClick} href="tel:89806550836" icon={phone} alt="phone"/>
                     </div>
                     </div>
                     <div className="col-lg-5">

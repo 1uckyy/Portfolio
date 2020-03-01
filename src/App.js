@@ -7,6 +7,12 @@ import AboutMe from './components/AboutMe';
 import LinkItem from './components/LinkItem';
 import Footer from './components/Footer';
 
+//google analytics
+import ReactGA from 'react-ga';
+
+//google analytics functions
+import { GithubPlanner, GithubSolar, GithubSocial, GithubSimplex, GithubCashbox, HerokuPlanner, PageSolar, HerokuSocial, HerokuCashbox } from './components/ClickEventFunctions'
+
 /*images*/
 import github from './images/icons/github-icon.png';
 import link from './images/icons/link-icon.png';
@@ -37,7 +43,14 @@ import cashbox1 from './images/cashbox1.jpg';
 import cashbox2 from './images/cashbox2.jpg';
 import cashbox3 from './images/cashbox3.jpg';
 
+/*Google analytics*/
+function initializeReactGA() {
+  ReactGA.initialize('UA-159291087-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
+
 function App() {
+  initializeReactGA();
   return (
     <div>
       <Header/>
@@ -79,8 +92,8 @@ function App() {
             </Carousel.Item>
           </Carousel>
           <div>
-            <LinkItem href="https://github.com/1uckyy/ApartmentPlannerFlaskReact" icon={github} wnd="_blank" alt="github repo"/>
-            <LinkItem href="https://apartment-planner.herokuapp.com/" icon={link} wnd="_blank" alt="heroku"/>
+            <LinkItem onClick={GithubPlanner} href="https://github.com/1uckyy/ApartmentPlannerFlaskReact" icon={github} wnd="_blank" alt="github repo"/>
+            <LinkItem onClick={HerokuPlanner} href="https://apartment-planner.herokuapp.com/" icon={link} wnd="_blank" alt="heroku"/>
           </div>
           <h3 className="projectsTitle prjTtl">Apartment Planner <i className="devicon-react-original colored"></i> <i class="devicon-python-plain colored"></i> <i className="devicon-mongodb-plain colored"></i></h3>
           <p>Web application for floor planning.</p>
@@ -118,9 +131,9 @@ function App() {
             </Carousel.Item>
           </Carousel>
           <div>
-            <LinkItem href="https://github.com/1uckyy/SolarSystem" icon={github} wnd="_blank" alt="github repo"/>
+            <LinkItem onClick={GithubSolar} href="https://github.com/1uckyy/SolarSystem" icon={github} wnd="_blank" alt="github repo"/>
             <LinkItem href={sys_pdf} icon={pdf} alt="pdf file"/>
-            <LinkItem href="https://1uckyy.github.io/" icon={link} wnd="_blank" alt="gh-pages"/>
+            <LinkItem onClick={PageSolar} href="https://1uckyy.github.io/" icon={link} wnd="_blank" alt="gh-pages"/>
           </div>
           <h3 className="projectsTitle prjTtl">Solar system <i class="devicon-javascript-plain colored"></i></h3>
           <p>3d model of the solar system.</p>
@@ -151,8 +164,8 @@ function App() {
             </Carousel.Item>
           </Carousel>
           <div>
-            <LinkItem href="https://github.com/1uckyy/social-e-library-server" icon={github} wnd="_blank" alt="github repo"/>
-            <LinkItem href="https://social-e-library.herokuapp.com/" icon={link} wnd="_blank" alt="gh-pages"/>
+            <LinkItem onClick={GithubSocial} href="https://github.com/1uckyy/social-e-library-server" icon={github} wnd="_blank" alt="github repo"/>
+            <LinkItem onClick={HerokuSocial} href="https://social-e-library.herokuapp.com/" icon={link} wnd="_blank" alt="gh-pages"/>
           </div>
           <h3 className="projectsTitle prjTtl">Social e-library <i class="devicon-react-original colored"></i> <i class="devicon-nodejs-plain colored"></i> <i class="devicon-express-original colored"></i> <i class="devicon-mongodb-plain colored"></i></h3>
           <p>This library is intended primarily for creative people who want to express themselves through literary works and share this with other people.</p>
@@ -190,7 +203,7 @@ function App() {
             </Carousel.Item>
           </Carousel>
           <div>
-            <LinkItem href="https://github.com/1uckyy/Simplex-Method/tree/remembering-type-of-steps" icon={github} wnd="_blank" alt="github repo"/>
+            <LinkItem onClick={GithubSimplex} href="https://github.com/1uckyy/Simplex-Method/tree/remembering-type-of-steps" icon={github} wnd="_blank" alt="github repo"/>
             <LinkItem href={"https://drive.google.com/open?id=1uyw0ArTA05LjTb1wkQNZeUhEFjAW5DDX"} icon={zip} wnd="_blank" alt="zip file"/>
           </div>
           <h3 className="projectsTitle prjTtl">Simplex method <i class="devicon-csharp-plain colored"></i></h3>
@@ -222,8 +235,8 @@ function App() {
             </Carousel.Item>
           </Carousel>
           <div>
-            <LinkItem href="https://github.com/RacoonSTR/react-kassa/tree/master/client/src/components/Cashiers" icon={github} wnd="_blank" alt="github repo"/>
-            <LinkItem href="https://tensor-react-kassa.herokuapp.com/" icon={link} wnd="_blank" alt="gh-pages"/>
+            <LinkItem onClick={GithubCashbox} href="https://github.com/RacoonSTR/react-kassa/tree/master/client/src/components/Cashiers" icon={github} wnd="_blank" alt="github repo"/>
+            <LinkItem onClick={HerokuCashbox} href="https://tensor-react-kassa.herokuapp.com/" icon={link} wnd="_blank" alt="gh-pages"/>
           </div>
           <h3 className="projectsTitle prjTtl">Cashbox(teamwork experience) <i class="devicon-react-original colored"></i> <i class="devicon-typescript-plain colored"></i> <i class="devicon-mongodb-plain colored"></i></h3>
           <p>This project is a cashbox software. The project was developed by the team as part of the training course. The group was divided into programmers, testers, assembler, designers and others. I was developing component "Cashiers". This is an invaluable experience for me.</p>
