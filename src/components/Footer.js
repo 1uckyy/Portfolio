@@ -18,11 +18,11 @@ class Footer extends Component {
                         <div className="col-lg-4 mod">
                         <h4 id="h4">Contact:</h4>
                         <p className="footer-links">
-                            <div>Email:</div>
+                            Email:
                             <a onClick={EmailClick} href="mailto:novak.vlad97@mail.ru" className="footer-link">novak.vlad97@mail.ru</a>
                         </p>
                         <p className="footer-links">
-                            <div>Phone:</div>
+                            Phone:
                             <a onClick={PhoneClick} href="tel:89806550836" className="footer-link">89806550836</a>
                         </p>
                         </div>
