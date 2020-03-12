@@ -32,6 +32,7 @@ class Header extends Component {
                         <Dropdown.Item><Link activeClass="active" className="menuItem" to="aboutme" spy={true} smooth={true} duration={500}>about me</Link></Dropdown.Item>
                         <Dropdown.Item><Link activeClass="active" className="menuItem" to="projects" spy={true} smooth={true} duration={500}>projects</Link></Dropdown.Item>
                         <Dropdown.Item><Link activeClass="active" className="menuItem" to="footer" spy={true} smooth={true} duration={500}>contacts</Link></Dropdown.Item>
+                        <Dropdown.Item id="dropdown-cv" href={resume_pdf} onClick={ResumeClick} className="menuItem">cv</Dropdown.Item>
                     </DropdownButton>
                 </div>
                 </header>

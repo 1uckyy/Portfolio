@@ -240,6 +240,10 @@
     display: block;
   }
 
+  #dropdown-cv {
+    text-align: center;
+  }
+
   .menu {
     display: none;
   }
