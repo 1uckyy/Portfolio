@@ -1,6 +1,13 @@
 //google analytics
 import ReactGA from 'react-ga';
 
+export const LinkedinClick = () => {
+    ReactGA.event({
+        category: 'Linkedin',
+        action: 'Click link linkedin.com page'
+    })
+}
+
 export const VkClick = () => {
     ReactGA.event({
         category: 'Vk',
