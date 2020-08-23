@@ -21,7 +21,7 @@ class AboutMe extends Component {
                     <div className="col-lg-7 mt">
                     <img className="avatar" src={im} alt="Vladislav Novak"></img>
                     <hr className="hr"/>
-                    <div>4th year student of Yaroslavl State University named after P. G. Demidov.</div>
+                    <div>1th year student of magistrancy Yaroslavl State University named after P. G. Demidov.</div>
                     <hr className="hr"/>
                     <div className="links">
                         <LinkItem onClick={LinkedinClick} href="https://www.linkedin.com/in/vladislav-novak-5755621a4/" icon={linkedin} wnd="_blank" alt="linkedin"/>
@@ -32,18 +32,18 @@ class AboutMe extends Component {
                     </div>
                     </div>
                     <div className="col-lg-5">
-                        <p>I am a young programmer & 4 year student, and you are welcome to my web-portfolio.</p>
+                        <p>I am a young programmer & 1th year student of magistrancy, and you are welcome to my web-portfolio.</p>
                         <h3>About me:</h3>
                         <p>Yaroslavl - Russia</p>
-                        <p>Music creator in Fl Studio, guitarist</p>
+                        <p>Music creator in Fl Studio</p>
                         <p>Basketball player, regular runner, chess player</p>
                         <h3>Languages:</h3>
                         <p><b>Russian</b>: native</p>
                         <p><b>English</b>: basic knowledge</p>
                         <h3>Dev. skills:</h3>
                         <p><b>Git</b>: Daily use common cmds.</p>
-                        <p><b>Object-oriented programming</b>: C#, several projects.</p>
-                        <p><b>Web</b>: HTML5 / CSS3, JavaScript.</p>
+                        <p><b>Object-oriented programming</b>: C# (WPF, ASP.NET), several projects.</p>
+                        <p><b>Web</b>: HTML5 / CSS3, JavaScript (React).</p>
                         <p id="projects"><b>Databases</b>: SQL (MySQL) / NoSQL (MongoDB).</p>
                     </div>
                 </div>

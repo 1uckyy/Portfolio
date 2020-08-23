@@ -235,7 +235,7 @@ function App() {
             </Carousel.Item>
           </Carousel>
           <div>
-            <LinkItem onClick={GithubCashbox} href="https://github.com/RacoonSTR/react-kassa/tree/master/client/src/components/Cashiers" icon={github} wnd="_blank" alt="github repo"/>
+            <LinkItem onClick={GithubCashbox} href="https://github.com/1uckyy/Cashiers" icon={github} wnd="_blank" alt="github repo"/>
             <LinkItem onClick={HerokuCashbox} href="https://tensor-react-kassa.herokuapp.com/" icon={link} wnd="_blank" alt="gh-pages"/>
           </div>
           <h3 className="projectsTitle prjTtl">Cashbox(teamwork experience) <i className="devicon-react-original colored"></i> <i className="devicon-typescript-plain colored"></i> <i className="devicon-mongodb-plain colored"></i></h3>
