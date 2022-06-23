@@ -148,6 +148,10 @@
   text-align: center;
 }
 
+.centerRowFlex {
+  justify-content: center !important;
+}
+
 #graybg .carousel-indicators li {
   background-color: gray;
 }

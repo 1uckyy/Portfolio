@@ -16,12 +16,12 @@ class AboutMe extends Component {
     render () {
         return (
             <div className="aboutMe">
-                <div className="container centered">
+                <div className="container centered centerRowFlex">
                 <div className="row">
                     <div className="col-lg-7 mt">
                     <img className="avatar" src={im} alt="Vladislav Novak"></img>
                     <hr className="hr"/>
-                    <div>Bachelor degree in computer science from Yaroslavl State University named after P. G. Demidov.</div>
+                    <div>Programmer at Labmedia Ltd.</div>
                     <hr className="hr"/>
                     <div className="links">
                         <LinkItem onClick={LinkedinClick} href="https://www.linkedin.com/in/vladislav-novak-5755621a4/" icon={linkedin} wnd="_blank" alt="linkedin"/>
