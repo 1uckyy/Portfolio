@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9cd8b083.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d9f447cb.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d9f447cb.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.1330607d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.2a105216.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2a105216.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.4005ac6c.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.4005ac6c.js.map",
     "static/css/2.17e5ed98.chunk.css": "/Portfolio/static/css/2.17e5ed98.chunk.css",
     "static/js/2.8ad4d46a.chunk.js": "/Portfolio/static/js/2.8ad4d46a.chunk.js",
     "static/js/2.8ad4d46a.chunk.js.map": "/Portfolio/static/js/2.8ad4d46a.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.c64ba2c7ca038e1c9f600ca87827b00f.js": "/Portfolio/precache-manifest.c64ba2c7ca038e1c9f600ca87827b00f.js",
+    "precache-manifest.d394d929d4374e495535dbaf4550344b.js": "/Portfolio/precache-manifest.d394d929d4374e495535dbaf4550344b.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/Portfolio/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.9cd8b083.chunk.css.map": "/Portfolio/static/css/main.9cd8b083.chunk.css.map",
+    "static/css/main.1330607d.chunk.css.map": "/Portfolio/static/css/main.1330607d.chunk.css.map",
     "static/js/2.8ad4d46a.chunk.js.LICENSE": "/Portfolio/static/js/2.8ad4d46a.chunk.js.LICENSE",
     "static/media/Solar System.pdf": "/Portfolio/static/media/Solar System.f66a93f0.pdf",
     "static/media/aprtm_plnr1.jpg": "/Portfolio/static/media/aprtm_plnr1.b1c5eac7.jpg",
@@ -23,7 +23,7 @@
     "static/media/cashbox2.jpg": "/Portfolio/static/media/cashbox2.6e883feb.jpg",
     "static/media/cashbox3.jpg": "/Portfolio/static/media/cashbox3.42cd056c.jpg",
     "static/media/im.jpg": "/Portfolio/static/media/im.080fcb76.jpg",
-    "static/media/resume_Novak_Vladislav.pdf": "/Portfolio/static/media/resume_Novak_Vladislav.da74ecdb.pdf",
+    "static/media/resume_Novak_Vladislav.pdf": "/Portfolio/static/media/resume_Novak_Vladislav.a350f070.pdf",
     "static/media/simplex1.jpg": "/Portfolio/static/media/simplex1.3d3ae697.jpg",
     "static/media/simplex2.jpg": "/Portfolio/static/media/simplex2.5dd57b1f.jpg",
     "static/media/simplex3.jpg": "/Portfolio/static/media/simplex3.14269f80.jpg",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.4005ac6c.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.8ad4d46a.chunk.js",
-    "static/css/main.9cd8b083.chunk.css",
-    "static/js/main.d9f447cb.chunk.js"
+    "static/css/main.1330607d.chunk.css",
+    "static/js/main.2a105216.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d86f13babcd8d790df27a72070988a69",
+    "revision": "1649251286bb933f6df20397f0196764",
     "url": "/Portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "8bc07094a9b7afd1e066",
-    "url": "/Portfolio/static/css/main.9cd8b083.chunk.css"
+    "revision": "58421c2d5c13cb463791",
+    "url": "/Portfolio/static/css/main.1330607d.chunk.css"
   },
   {
     "revision": "27680901325da841b49c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.8ad4d46a.chunk.js.LICENSE"
   },
   {
-    "revision": "8bc07094a9b7afd1e066",
-    "url": "/Portfolio/static/js/main.d9f447cb.chunk.js"
+    "revision": "58421c2d5c13cb463791",
+    "url": "/Portfolio/static/js/main.2a105216.chunk.js"
   },
   {
     "revision": "fc5338d523801bf5e718",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/im.080fcb76.jpg"
   },
   {
-    "revision": "da74ecdb785130df59dcef0ca8839eda",
-    "url": "/Portfolio/static/media/resume_Novak_Vladislav.da74ecdb.pdf"
+    "revision": "a350f070e7629492f1a93d66800602f9",
+    "url": "/Portfolio/static/media/resume_Novak_Vladislav.a350f070.pdf"
   },
   {
     "revision": "3d3ae697fe6dca86360f9d19516a1efe",
